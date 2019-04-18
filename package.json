@@ -1,0 +1,12 @@
+{
+    "name": "kevin",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "scripts": {
+        "compile:sass": "node-sass src/sass/main src/css/style.css -w"
+    },
+    "dependencies": {
+        "node-sass": "^4.11.0"
+    }
+}
