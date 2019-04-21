@@ -1,0 +1,15 @@
+.btn, .btn:active {
+  padding: 2rem 5rem;
+  background-color: transparent;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  color: $color-white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: 2px solid $color-white;
+  outline: none;
+}
+
+.btn:hover {
+  box-shadow: 0 2rem 3rem rgba($color-black, .14);
+}

@@ -1,0 +1,14 @@
+.companies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 2rem;
+
+  &__item {
+    flex: 0 0 20%;
+    & img {
+      width: 20rem;
+      height: auto;
+    }
+  }
+}

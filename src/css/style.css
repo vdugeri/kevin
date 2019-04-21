@@ -1,0 +1,213 @@
+*,
+*::after
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: inherit; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  line-height: 1.7;
+  font-weight: 400;
+  font-family: "Raleway", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0; }
+
+.icon-white {
+  fill: #fff; }
+
+.icon-small {
+  width: 3rem;
+  height: 3rem; }
+
+.btn, .btn:active {
+  padding: 2rem 5rem;
+  background-color: transparent;
+  border-radius: 3rem;
+  font-size: 1.5rem;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+  border: 2px solid #fff;
+  outline: none; }
+
+.btn:hover {
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.14); }
+
+.navigation {
+  display: flex;
+  justify-content: space-around;
+  padding: 0 2rem;
+  background-color: #8846da;
+  color: #fff; }
+  .navigation__logo {
+    display: flex;
+    align-items: center;
+    font-size: 3rem;
+    font-weight: 700; }
+  .navigation__smiley {
+    font-size: 3rem;
+    margin-right: 1rem;
+    font-weight: 500; }
+  .navigation__nav {
+    list-style: none;
+    display: flex;
+    margin-left: auto;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1.8rem;
+    text-transform: capitalize; }
+    .navigation__nav-item {
+      padding: 1rem; }
+      .navigation__nav-item a {
+        text-decoration: none;
+        color: #fff; }
+  .navigation__cta {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5rem; }
+
+.hero {
+  height: 100vh;
+  background-color: #8846da;
+  position: relative;
+  background-image: url("../img/barriers.png");
+  background-size: cover;
+  position: relative; }
+  .hero__text {
+    font-size: 4rem;
+    width: 20vw;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    padding: 1rem 1.5rem;
+    color: #777; }
+
+.expo {
+  display: flex;
+  width: 80vw;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.14);
+  margin: auto;
+  margin-bottom: -6rem;
+  position: relative;
+  z-index: 0;
+  padding: 0 4rem;
+  min-height: 60rem; }
+  .expo__description {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+    font-size: 1.4rem;
+    color: #777; }
+    .expo__description h2 {
+      font-size: 3rem;
+      font-weight: 700; }
+  .expo__article {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 20%;
+    font-size: 1.4rem;
+    margin-left: 20rem;
+    color: #777; }
+    .expo__article-icon {
+      width: 8rem;
+      height: 8rem;
+      background-color: #FF4C56;
+      border-radius: 50%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: #fff; }
+    .expo__article-body h3 {
+      font-size: 2.5rem;
+      font-weight: 700; }
+
+.cta {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FBF8F5;
+  padding: 12rem 20rem;
+  text-align: center;
+  overflow: hidden;
+  position: relative;
+  z-index: -1; }
+  .cta__header h2 {
+    font-size: 3rem;
+    color: #777; }
+  .cta__header span {
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+    margin-top: -3rem;
+    text-align: center; }
+  .cta__body {
+    display: flex;
+    flex: 0 0 80%;
+    justify-content: center;
+    align-items: center; }
+  .cta__card {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 30%;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.14);
+    background-color: #fff;
+    min-height: 60rem;
+    margin: 2rem;
+    padding: 2rem;
+    text-align: left;
+    position: relative; }
+    .cta__card--icon {
+      width: 3rem;
+      height: 3rem; }
+    .cta__card h2 {
+      font-size: 3rem;
+      color: #777; }
+    .cta__card span {
+      font-size: 1.8rem;
+      color: #777; }
+
+.primary {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 4px solid #8846da;
+  position: absolute;
+  top: 70%;
+  left: 60%; }
+
+.secondary {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 4px solid #ffb300;
+  position: absolute;
+  top: 65%;
+  left: 65%; }
+
+.tertiary {
+  width: 12rem;
+  height: 12rem;
+  border-radius: 50%;
+  border: 4px solid #FF4C56;
+  position: absolute;
+  top: 70%;
+  left: 70%; }
+
+.companies {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 4rem 2rem; }
+  .companies__item {
+    flex: 0 0 20%; }
+    .companies__item img {
+      width: 20rem;
+      height: auto; }
