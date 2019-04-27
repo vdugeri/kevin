@@ -14,5 +14,10 @@
     left: 10%;
     padding: 1rem 1.5rem;
     color: #777;
+
+    @include respond('tab-port') {
+      width: 30vw;
+      font-size: 2rem;
+    }
   }
 }

@@ -5,4 +5,9 @@
 .icon-small {
   width: 3rem;
   height: 3rem;
+
+  @include respond('tab-port') {
+    width: 2rem;
+    height: 2rem;
+  }
 }
